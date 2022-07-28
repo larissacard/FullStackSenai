@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <main class="main">
+    <main class="main" >
         <section class="calc-imc">
-            <h1>Calculadora IMC</h1>
             <form class="form" id="form">
+                <h1>Calculadora IMC</h1>
                 <label for="kilos">
                     Quilos
                     <input name="kilos" id="kilos" placeholder="Peso atual" type="number" />
@@ -28,18 +28,27 @@
                 </label>
                 <button>Calcular</button>
             </form>
+        </section> 
+        <div>
             <div class="info">
-                <h4>IMC</h4>
+                <h4>IMC CLASSIFICAÇÃO</h4>
                 <div class="infop">
                     <p>Abaixo de 17 <span class="orange">Muito abaixo do peso</span> </p>
                     <p>Entre 17 e 18,49   <span class="orange">Abaixo do peso</span></p>
-                    <p>Entre 18,5 e 24,99 <span class="orange">Peso normal</span></p>
-                    <p>Entre 25 e 29,99   <span class="orange">Acima do peso</span></p>
-                    <p> Entre 30 e 34,99  <span class="orange">Obesidade I</span></p>
-                    <p> Entre 35 e 39,99  <span class="orange">Obesidade II</span></p>
+                    <p>Entre 18,5 e 24,9 <span class="orange">Peso normal</span></p>
+                    <p>Entre 25 e 29,9   <span class="orange">Acima do peso</span></p>
+                    <p> Entre 30 e 34,9  <span class="orange">Obesidade I</span></p>
+                    <p> Entre 35 e 39,9  <span class="orange">Obesidade II</span></p>
                 </div>
             </div>
-        </section>
+            <div class="info">
+                <h4>O que vem a ser IMC?</h4>
+                <h6>
+                Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal. Ele aponta se o peso está adequado ou se está abaixo ou acima do peso.
+                </h6>
+            </div>  
+        </div>
+        
     </main>
     <script>
         function validarEntrada(args) {

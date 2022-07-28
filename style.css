@@ -18,40 +18,46 @@ body {
 }
 
 .calc-imc {
-	background: #FF7629;
-	border-radius: 39px;
+	background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+	border-radius: 25px;
 	height: fit-content;
-	
 }
+
 .orange{
 	color: #FF7629;
 	font-weight: 600;
 }
+
 .info{
-	margin-left: 15px;
-	background-color: white;
-	color: black;
-	height: 250px;
-	width: 430px;
-	border-radius: 39px;
+	margin-left: 0.5rem;
+	background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+	color: white;
+	height: 205px;
+	width: 450px;
+	border-radius: 25px;
+	margin-bottom: 5px;
 }
 .infop{
 	margin-left: 25px;
 	align-items: center;
 }
+.info h6{
+	padding-left: 1rem;
+	font-size: 17px;
+}
 .info h4{
 	text-align: center;
 	padding-top: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	font-weight: 500;
 }
 
 #imc{
-	background-color: black;
-	color: white;
+	background-color: #303136;
+	color: #FF7629;
 	font-weight: 600;
 	text-align: center;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 8px 10px 8px rgba(0, 0, 0, 0.29);
+	
 }
 
 @media (min-width: 500px) {
@@ -94,18 +100,9 @@ body {
 }
 
 .form button {
-	background-color: grey;
+	background-color: #FF7629;
 	cursor: pointer;
 	border-radius: 0.3em;
 	width: 50%;
 }
 
-.form button:hover {
-	filter: opacity(0.8);
-}
-
-.form button:active {
-	background-color: #FFEFFF;
-	color: #000;
-	filter: opacity(0.8);
-}
