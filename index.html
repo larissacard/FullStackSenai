@@ -28,10 +28,21 @@
                 </label>
                 <button>Calcular</button>
             </form>
+            <div class="info">
+                <h4>IMC</h4>
+                <div class="infop">
+                    <p>Abaixo de 17 <span class="orange">Muito abaixo do peso</span> </p>
+                    <p>Entre 17 e 18,49   <span class="orange">Abaixo do peso</span></p>
+                    <p>Entre 18,5 e 24,99 <span class="orange">Peso normal</span></p>
+                    <p>Entre 25 e 29,99   <span class="orange">Acima do peso</span></p>
+                    <p> Entre 30 e 34,99  <span class="orange">Obesidade I</span></p>
+                    <p> Entre 35 e 39,99  <span class="orange">Obesidade II</span></p>
+                </div>
+            </div>
         </section>
     </main>
     <script>
-        function validaEntrada(args) {
+        function validarEntrada(args) {
             for (let i = 0; i < arguments.length; i++) {
                 if (!!arguments[i] == false || arguments[i] < 0) {
                     return false;
@@ -53,7 +64,7 @@
             const kilos = parseFloat(document.getElementById('kilos').value);
             const altura = parseFloat(document.getElementById('altura').value);
 
-            if (validaEntrada(kilos, altura)) {
+            if (validarEntrada(kilos, altura)) {
                 const imc = calcularIMC(kilos, altura);
                 document.getElementById('imc').value = parseInt(imc).toFixed(2);
             } else {
