@@ -9,10 +9,6 @@ Este repósitorio contem contéudo e projetos simples desenvolvidos durante o cu
 - [Projetos simples em HTML](#html)
 - [Projetos simples em Javascript Vanilla](#javascript)
 
-Para projetos mais complexos visite os repositorios
-
-[Sistema de Autoavaliação(Backend)](https://github.com/larissacard/Sistema-de-Autoavaliacao-BackEnd)
-[Gerenciador de Projetos](https://github.com/VinicciusSantos/API-NodeJs)
 
 ## Projetos simples em HTML
 - Healthy Carely (BOOTSTRAP)
@@ -30,3 +26,8 @@ Para projetos mais complexos visite os repositorios
 ![image](https://github.com/larissacard/SENAI-Fullstack/assets/106749260/92d2e212-61b9-477a-aa28-4ae3cc31d363)
 
 
+
+obs: Para mais projetos visite os repósitorio
+
+[Sistema de Autoavaliação(Backend)](https://github.com/larissacard/Sistema-de-Autoavaliacao-BackEnd)
+[Gerenciador de Projetos](https://github.com/VinicciusSantos/API-NodeJs)
