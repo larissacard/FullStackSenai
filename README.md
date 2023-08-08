@@ -1,6 +1,6 @@
 # SENAI-Fullstack
 
- ![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=EM-DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+ ![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
 Este repósitorio contem contéudo e projetos simples desenvolvidos durante o curso de programação fullstack oferecido pela instituição SENAI.
 
